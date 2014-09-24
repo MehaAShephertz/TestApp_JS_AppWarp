@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Laila';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Laila.woff2') format('woff2');
+}
+
+body
+{
+	font-family: 'Laila', serif;
+}
+
+.awPanel
+{
+	margin-top: 4px;
+	font-size: 1.2em;
+}
+
+.awPanel .btn
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#response, #notification
+{
+	max-height: 300px;
+	overflow-y: scroll;
+	font-size: 0.8em;
+}
